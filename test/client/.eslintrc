@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "qunit": true,
+    "jquery": true,
+    "node": true
+  },
+  "rules": {
+    "no-eval": 0,
+    "max-nested-callbacks": 0,
+    "no-script-url": 0
+  },
+  "globals": {
+    /* Utils */
+    "async": true,
+
+    /* For more details on global variables see custom-setup.js file */
+    "getProperty": true,
+    "setProperty": true,
+    "initIFrameTestHandler": true
+  }
+}
+

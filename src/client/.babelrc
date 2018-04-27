@@ -1,0 +1,9 @@
+{
+  "compact": false,
+  "presets": [
+    ["env", { "loose": true }]
+  ],
+  "plugins": [
+    "add-module-exports"
+  ]
+}
